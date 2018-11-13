@@ -17,10 +17,16 @@ h2 {
         
         flex-basis: calc(33.333% - 30px);
     }
+    .container {
+         padding: 60px 35px 0px;
+    }
 }
 @media screen and (min-width: 922px)  {
     .square {
        flex-basis: calc(25% - 30px);
+    }
+    .container {
+        padding: 60px 35px 0px;
     }
 }
 
@@ -36,7 +42,6 @@ h2 {
 .container {
     width: 100%;
     margin: 0;
-    padding: 60px 35px 0px;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
